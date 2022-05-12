@@ -1,0 +1,17 @@
+[
+    {
+        "chainId": 1,
+        "name": "Ethereum",
+        "url": "https://mainnet.infura.io/v3/04989f7dc166472c85dbb296bb76aff8"
+    },
+    {
+        "chainId": 3,
+        "name": "Ropsten",
+        "url": "https://ropsten.infura.io/v3/04989f7dc166472c85dbb296bb76aff8"
+    },
+    {
+        "chainId": 4,
+        "name": "Rinkeby",
+        "url": "https://rinkeby.infura.io/v3/04989f7dc166472c85dbb296bb76aff8"
+    }
+]

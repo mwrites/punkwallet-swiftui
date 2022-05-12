@@ -1,0 +1,97 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BigInt",
+        "repositoryURL": "https://github.com/attaswift/BigInt",
+        "state": {
+          "branch": null,
+          "revision": "0ed110f7555c34ff468e72e1686e59721f2b0da6",
+          "version": "5.3.0"
+        }
+      },
+      {
+        "package": "CodeScanner",
+        "repositoryURL": "https://github.com/twostraws/CodeScanner",
+        "state": {
+          "branch": "main",
+          "revision": "c27a66149b7483fe42e2ec6aad61d5c3fffe522d",
+          "version": null
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "12f2389aca4a07e0dd54c86ec23d0721ed88b8db",
+          "version": "1.4.3"
+        }
+      },
+      {
+        "package": "GenericJSON",
+        "repositoryURL": "https://github.com/zoul/generic-json-swift",
+        "state": {
+          "branch": null,
+          "revision": "a137894b2a217abe489cdf1ea287e6f7819b1051",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "git@github.com:kishikawakatsumi/KeychainAccess.git",
+        "state": {
+          "branch": "master",
+          "revision": "6299daec1d74be12164fec090faf9ed14d0da9d6",
+          "version": null
+        }
+      },
+      {
+        "package": "PartialSheet",
+        "repositoryURL": "https://github.com/AndreaMiotto/PartialSheet.git",
+        "state": {
+          "branch": "master",
+          "revision": "415fafa8ed719613b3abc787d52a8aa32a4998b9",
+          "version": null
+        }
+      },
+      {
+        "package": "secp256k1",
+        "repositoryURL": "https://github.com/Boilertalk/secp256k1.swift",
+        "state": {
+          "branch": null,
+          "revision": "45e458ec3be46cf0a6eb68bc947f797852dc65d8",
+          "version": "0.1.6"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+          "version": "4.0.4"
+        }
+      },
+      {
+        "package": "swift-collections",
+        "repositoryURL": "https://github.com/apple/swift-collections.git",
+        "state": {
+          "branch": null,
+          "revision": "48254824bb4248676bf7ce56014ff57b142b77eb",
+          "version": "1.0.2"
+        }
+      },
+      {
+        "package": "WalletConnectSwift",
+        "repositoryURL": "https://github.com/WalletConnect/WalletConnectSwift",
+        "state": {
+          "branch": null,
+          "revision": "f316e6dd91639d6e3e5a4c8860d823c08cc71bc3",
+          "version": "1.6.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

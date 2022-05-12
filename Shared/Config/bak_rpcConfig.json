@@ -1,0 +1,37 @@
+[
+    {
+        "chainId": 1,
+        "name": "Ethereum",
+        "url": "https://mainnet.infura.io/v3/04989f7dc166472c85dbb296bb76aff8"
+    },
+    {
+        "chainId": 10,
+        "name": "Optimism",
+        "url": "https://mainnet.optimism.io"
+    },
+    {
+        "chainId": 42161,
+        "name": "Arbitrum",
+        "url": "https://arb1.arbitrum.io/rpc"
+    },
+    {
+        "chainId": 100,
+        "name": "Gnosis",
+        "url": "https://rpc.gnosischain.com"
+    },
+    {
+        "chainId": 137,
+        "name": "Polygon",
+        "url": "https://polygon-rpc.com"
+    },
+    {
+        "chainId": 3,
+        "name": "Ropsten",
+        "url": "https://ropsten.infura.io/v3/04989f7dc166472c85dbb296bb76aff8"
+    },
+    {
+        "chainId": 4,
+        "name": "Rinkeby",
+        "url": "https://rinkeby.infura.io/v3/04989f7dc166472c85dbb296bb76aff8"
+    }
+]
