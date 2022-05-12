@@ -70,9 +70,9 @@ Please be aware that if you deploy to your device with a free apple developer ac
 ---
 
 # 👩🏻‍🔧 Fixes
-- [ ] Get Pending Transactions From Web Or Somewhere Else?
 - [ ] Handle Network Connectivity
 - [ ] Transactions Retry?
+- [ ] RPC errors, checking with argent how to propagate errors out of their library
 
 ---
 
