@@ -1,3 +1,7 @@
+
+![intro](https://user-images.githubusercontent.com/20499416/168070665-24dbb84e-ba24-415e-b561-7f483fd5f4e7.gif)
+
+
 # ⚠️ If You Deploy This
 Please be aware that if you deploy to your device with a free apple developer account, your app will only survive for a week, after that you will have to redeploy, it is not guaranteed that your data will still be persisted!!
 
