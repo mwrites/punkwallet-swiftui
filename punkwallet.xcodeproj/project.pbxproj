@@ -103,6 +103,7 @@
 		63A8E9B3280C6547002814AF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8E9B1280C6547002814AF /* Config.swift */; };
 		63A8E9B8280C6BEF002814AF /* WCClientV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8E9B7280C6BEF002814AF /* WCClientV2.swift */; };
 		63A8E9B9280C6BEF002814AF /* WCClientV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8E9B7280C6BEF002814AF /* WCClientV2.swift */; };
+		63B6E04A282D319F00DF406E /* web3.swift in Frameworks */ = {isa = PBXBuildFile; productRef = 63B6E049282D319F00DF406E /* web3.swift */; };
 		63C95B0728245A8E00FE1295 /* web3.swift in Frameworks */ = {isa = PBXBuildFile; productRef = 63C95B0628245A8E00FE1295 /* web3.swift */; };
 		63C95B0A28245A9D00FE1295 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 63C95B0928245A9D00FE1295 /* CodeScanner */; };
 		63C95B0D28245AAF00FE1295 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 63C95B0C28245AAF00FE1295 /* KeychainAccess */; };
@@ -196,6 +197,7 @@
 				63C95B1028245B2200FE1295 /* PartialSheet in Frameworks */,
 				63C95B0D28245AAF00FE1295 /* KeychainAccess in Frameworks */,
 				6371BED2282933850006CF79 /* OrderedCollections in Frameworks */,
+				63B6E04A282D319F00DF406E /* web3.swift in Frameworks */,
 				6371BED0282933850006CF79 /* DequeModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +439,7 @@
 				63C95B1228245B5100FE1295 /* WalletConnectSwift */,
 				6371BECF282933850006CF79 /* DequeModule */,
 				6371BED1282933850006CF79 /* OrderedCollections */,
+				63B6E049282D319F00DF406E /* web3.swift */,
 			);
 			productName = "punkwallet (iOS)";
 			productReference = 632B7EF127FC83230018A9AF /* punkwallet.app */;
@@ -537,6 +540,7 @@
 				63C95B0E28245B2100FE1295 /* XCRemoteSwiftPackageReference "PartialSheet" */,
 				63C95B1128245B5100FE1295 /* XCRemoteSwiftPackageReference "WalletConnectSwift" */,
 				6371BECE282933850006CF79 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				63B6E048282D319F00DF406E /* XCRemoteSwiftPackageReference "web3" */,
 			);
 			productRefGroup = 632B7EF227FC83230018A9AF /* Products */;
 			projectDirPath = "";
@@ -1092,6 +1096,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		63B6E048282D319F00DF406E /* XCRemoteSwiftPackageReference "web3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mwrites/web3.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
 		63C95B0528245A8E00FE1295 /* XCRemoteSwiftPackageReference "web3" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/argentlabs/web3.swift";
@@ -1144,6 +1156,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6371BECE282933850006CF79 /* XCRemoteSwiftPackageReference "swift-collections" */;
 			productName = OrderedCollections;
+		};
+		63B6E049282D319F00DF406E /* web3.swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63B6E048282D319F00DF406E /* XCRemoteSwiftPackageReference "web3" */;
+			productName = web3.swift;
 		};
 		63C95B0628245A8E00FE1295 /* web3.swift */ = {
 			isa = XCSwiftPackageProductDependency;
