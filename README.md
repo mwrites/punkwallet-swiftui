@@ -96,3 +96,7 @@ https://github.com/foundry-rs/foundry
 https://github.com/gakonst/ethers-rs
 https://github.com/gakonst/opensea-rs
 https://www.youtube.com/watch?v=v3QexBRxPJA
+
+
+# 🌎 Web Dev
+If you come from a React Background, this could be helpful: https://github.com/unixzii/swiftui-for-react-devs
