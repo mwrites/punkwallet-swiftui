@@ -77,13 +77,14 @@ Please be aware that if you deploy to your device with a free apple developer ac
 ---
 
 # 🦄 UX Niceties
+- [x] Scan Contact
+- [x] Copy/Paste address
 - [ ] Implement Signing Confirmation Popup
 - [x] Notifications
 - [ ] Open Wallet from Safari with DeepLinking
 - [ ] Tag and search wallets 
 - [x] Add recent wallets
 - [ ] FaceID
-- [ ] Put current wallet on top or separetely in wallet list
 
 ---
 
