@@ -89,17 +89,17 @@ Please be aware that if you deploy to your device with a free apple developer ac
 
 # 💡 Ideas
 UI:
-https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols
-https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
-https://developer.apple.com/sf-symbols/
+- https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols
+- https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
+- https://developer.apple.com/sf-symbols/
 
 
 Ideas:
-https://github.com/DefiLlama/token-faucet
-https://github.com/foundry-rs/foundry
-https://github.com/gakonst/ethers-rs
-https://github.com/gakonst/opensea-rs
-https://www.youtube.com/watch?v=v3QexBRxPJA
+- https://github.com/DefiLlama/token-faucet
+- https://github.com/foundry-rs/foundry
+- https://github.com/gakonst/ethers-rs
+- https://github.com/gakonst/opensea-rs
+- https://www.youtube.com/watch?v=v3QexBRxPJA
 
 
 # 🌎 Web Dev
