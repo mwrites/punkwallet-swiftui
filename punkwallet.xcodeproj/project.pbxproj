@@ -104,7 +104,6 @@
 		63A8E9B8280C6BEF002814AF /* WCClientV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8E9B7280C6BEF002814AF /* WCClientV2.swift */; };
 		63A8E9B9280C6BEF002814AF /* WCClientV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8E9B7280C6BEF002814AF /* WCClientV2.swift */; };
 		63B6E04A282D319F00DF406E /* web3.swift in Frameworks */ = {isa = PBXBuildFile; productRef = 63B6E049282D319F00DF406E /* web3.swift */; };
-		63C95B0728245A8E00FE1295 /* web3.swift in Frameworks */ = {isa = PBXBuildFile; productRef = 63C95B0628245A8E00FE1295 /* web3.swift */; };
 		63C95B0A28245A9D00FE1295 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 63C95B0928245A9D00FE1295 /* CodeScanner */; };
 		63C95B0D28245AAF00FE1295 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 63C95B0C28245AAF00FE1295 /* KeychainAccess */; };
 		63C95B1028245B2200FE1295 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 63C95B0F28245B2200FE1295 /* PartialSheet */; };
@@ -192,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C95B0A28245A9D00FE1295 /* CodeScanner in Frameworks */,
-				63C95B0728245A8E00FE1295 /* web3.swift in Frameworks */,
 				63C95B1328245B5100FE1295 /* WalletConnectSwift in Frameworks */,
 				63C95B1028245B2200FE1295 /* PartialSheet in Frameworks */,
 				63C95B0D28245AAF00FE1295 /* KeychainAccess in Frameworks */,
@@ -432,7 +430,6 @@
 			);
 			name = "punkwallet (iOS)";
 			packageProductDependencies = (
-				63C95B0628245A8E00FE1295 /* web3.swift */,
 				63C95B0928245A9D00FE1295 /* CodeScanner */,
 				63C95B0C28245AAF00FE1295 /* KeychainAccess */,
 				63C95B0F28245B2200FE1295 /* PartialSheet */,
@@ -534,7 +531,6 @@
 			);
 			mainGroup = 632B7EE427FC83200018A9AF;
 			packageReferences = (
-				63C95B0528245A8E00FE1295 /* XCRemoteSwiftPackageReference "web3" */,
 				63C95B0828245A9D00FE1295 /* XCRemoteSwiftPackageReference "CodeScanner" */,
 				63C95B0B28245AAF00FE1295 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				63C95B0E28245B2100FE1295 /* XCRemoteSwiftPackageReference "PartialSheet" */,
@@ -1100,15 +1096,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mwrites/web3.swift";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.3;
-			};
-		};
-		63C95B0528245A8E00FE1295 /* XCRemoteSwiftPackageReference "web3" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/argentlabs/web3.swift";
-			requirement = {
-				branch = master;
+				branch = punkwallet;
 				kind = branch;
 			};
 		};
@@ -1160,11 +1148,6 @@
 		63B6E049282D319F00DF406E /* web3.swift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 63B6E048282D319F00DF406E /* XCRemoteSwiftPackageReference "web3" */;
-			productName = web3.swift;
-		};
-		63C95B0628245A8E00FE1295 /* web3.swift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 63C95B0528245A8E00FE1295 /* XCRemoteSwiftPackageReference "web3" */;
 			productName = web3.swift;
 		};
 		63C95B0928245A9D00FE1295 /* CodeScanner */ = {
